@@ -1,0 +1,58 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    transform: translateY(25%);
+   
+    
+  
+
+}
+.container{
+    width: 300px;
+    background-color:aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 1.5px 10px  rgb(10, 10, 10,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container .image_section{
+    width: 100%;
+
+
+}
+
+.container .image_section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius:15px;
+   
+}
+.content-section{
+    color :hsl(218, 44%, 22%)
+}
+@media screen and (max-width:400px) {
+    body{
+        margin:50px ;
+    }
+    .container{
+        width: 90%;
+        transform: translateY(-25%) !important;
+        
+    }
+
+    
+}
